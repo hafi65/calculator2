@@ -1,0 +1,103 @@
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: rgba(255, 255, 255, 0.295);
+}
+#container{
+    width: 100px;
+    height: 550px;
+    margin: 20px auto;
+    background-color: cadetblue;
+}
+
+#calculator{
+    width: 320px;
+    height: 520px;
+    margin: 0 auto;
+background-color: rgb(50, 50, 53);
+top: 20px;
+position: relative;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rebeccapurple(0,0,0,0.2),0 6px 20px 0px rgb(168, 173, 174);
+
+}
+#keyboard{
+    height: 400px;
+    background-color: rgb(179, 183, 187);
+}
+.operator, .number, .empty{
+    width: 50px;
+height: 50px;
+margin: 15px;
+float: left;
+border-radius: 50%;
+border-width: 0;
+font-size: 15px;
+cursor: pointer;
+background-color: antiquewhite;
+border: 5px solid black;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus,.empty:focus{
+    outline: 0;
+}
+#result{
+    height: 120px;
+}
+
+#history{
+    text-align: right;
+    height: 7px;
+    width: 100px;
+    
+margin-left: 150px;
+margin-top: 100px;
+padding-top: 20px;
+font-size: 15px;
+background-color: rgb(198, 223, 234);
+border: 5px solid rgb(18, 17, 16);
+}
+#output{
+    text-align: right;
+    height: 40px;
+    margin: 0px 20px ;
+font-size: 30px;
+background-color: rgb(213, 228, 228);
+
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: azure;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: rgb(178, 108, 149);
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: rgb(113, 119, 119);
+}
+
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: rgb(198, 164, 135);
+}
+ 
+button:nth-child(20){
+    font-size: 20px;
+    background-color: rgb(246, 117, 117);
+}
+
+
+
+
+
+
+
+
